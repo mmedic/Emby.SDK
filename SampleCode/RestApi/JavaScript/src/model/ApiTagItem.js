@@ -14,7 +14,7 @@ import ApiClient from '../ApiClient';
 /**
 * The ApiTagItem model module.
 * @module model/ApiTagItem
-* @version 4.9.1.90
+* @version 4.9.3.0
 */
 export default class ApiTagItem {
     /**

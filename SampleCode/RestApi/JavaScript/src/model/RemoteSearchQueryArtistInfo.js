@@ -15,7 +15,7 @@ import ArtistInfo from './ArtistInfo';
 /**
 * The RemoteSearchQueryArtistInfo model module.
 * @module model/RemoteSearchQueryArtistInfo
-* @version 4.9.1.90
+* @version 4.9.3.0
 */
 export default class RemoteSearchQueryArtistInfo {
     /**

@@ -15,7 +15,7 @@ import BookInfo from './BookInfo';
 /**
 * The RemoteSearchQueryBookInfo model module.
 * @module model/RemoteSearchQueryBookInfo
-* @version 4.9.1.90
+* @version 4.9.3.0
 */
 export default class RemoteSearchQueryBookInfo {
     /**

@@ -130,6 +130,7 @@ open class UserServiceAPI {
        - name: embyauth
      - examples: [{contentType=application/json, example={
   "Policy" : {
+    "AutoRemoteQuality" : 2,
     "AllowTagOrRating" : true,
     "EnableContentDeletion" : true,
     "AllowSharingPersonalItems" : true,
@@ -151,14 +152,14 @@ open class UserServiceAPI {
     } ],
     "EnableContentDownloading" : true,
     "EnableSubtitleManagement" : true,
-    "SimultaneousStreamLimit" : 9,
+    "SimultaneousStreamLimit" : 3,
     "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
     "IsAdministrator" : true,
     "EnableSubtitleDownloading" : true,
     "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
     "EnableAllDevices" : true,
     "EnableMediaConversion" : true,
-    "InvalidLoginAttemptCount" : 2,
+    "InvalidLoginAttemptCount" : 7,
     "IsTagBlockingModeInclusive" : true,
     "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
     "EnableLiveTvAccess" : true,
@@ -182,7 +183,7 @@ open class UserServiceAPI {
     "EnableAudioPlaybackTranscoding" : true,
     "IsHiddenFromUnusedDevices" : true,
     "EnableSyncTranscoding" : true,
-    "RemoteClientBitrateLimit" : 7
+    "RemoteClientBitrateLimit" : 9
   },
   "EnableAutoLogin" : true,
   "UserItemShareLevel" : "None",
@@ -216,7 +217,7 @@ open class UserServiceAPI {
   "HasConfiguredPassword" : true,
   "ServerName" : "ServerName",
   "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-  "PrimaryImageAspectRatio" : 3.616076749251911,
+  "PrimaryImageAspectRatio" : 2.027123023002322,
   "ConnectLinkType" : "LinkedUser",
   "Id" : "Id",
   "HasPassword" : true
@@ -321,6 +322,7 @@ open class UserServiceAPI {
   "TotalRecordCount" : 0,
   "Items" : [ {
     "Policy" : {
+      "AutoRemoteQuality" : 2,
       "AllowTagOrRating" : true,
       "EnableContentDeletion" : true,
       "AllowSharingPersonalItems" : true,
@@ -342,14 +344,14 @@ open class UserServiceAPI {
       } ],
       "EnableContentDownloading" : true,
       "EnableSubtitleManagement" : true,
-      "SimultaneousStreamLimit" : 9,
+      "SimultaneousStreamLimit" : 3,
       "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
       "IsAdministrator" : true,
       "EnableSubtitleDownloading" : true,
       "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
       "EnableAllDevices" : true,
       "EnableMediaConversion" : true,
-      "InvalidLoginAttemptCount" : 2,
+      "InvalidLoginAttemptCount" : 7,
       "IsTagBlockingModeInclusive" : true,
       "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
       "EnableLiveTvAccess" : true,
@@ -373,7 +375,7 @@ open class UserServiceAPI {
       "EnableAudioPlaybackTranscoding" : true,
       "IsHiddenFromUnusedDevices" : true,
       "EnableSyncTranscoding" : true,
-      "RemoteClientBitrateLimit" : 7
+      "RemoteClientBitrateLimit" : 9
     },
     "EnableAutoLogin" : true,
     "UserItemShareLevel" : "None",
@@ -407,12 +409,13 @@ open class UserServiceAPI {
     "HasConfiguredPassword" : true,
     "ServerName" : "ServerName",
     "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-    "PrimaryImageAspectRatio" : 3.616076749251911,
+    "PrimaryImageAspectRatio" : 2.027123023002322,
     "ConnectLinkType" : "LinkedUser",
     "Id" : "Id",
     "HasPassword" : true
   }, {
     "Policy" : {
+      "AutoRemoteQuality" : 2,
       "AllowTagOrRating" : true,
       "EnableContentDeletion" : true,
       "AllowSharingPersonalItems" : true,
@@ -434,14 +437,14 @@ open class UserServiceAPI {
       } ],
       "EnableContentDownloading" : true,
       "EnableSubtitleManagement" : true,
-      "SimultaneousStreamLimit" : 9,
+      "SimultaneousStreamLimit" : 3,
       "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
       "IsAdministrator" : true,
       "EnableSubtitleDownloading" : true,
       "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
       "EnableAllDevices" : true,
       "EnableMediaConversion" : true,
-      "InvalidLoginAttemptCount" : 2,
+      "InvalidLoginAttemptCount" : 7,
       "IsTagBlockingModeInclusive" : true,
       "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
       "EnableLiveTvAccess" : true,
@@ -465,7 +468,7 @@ open class UserServiceAPI {
       "EnableAudioPlaybackTranscoding" : true,
       "IsHiddenFromUnusedDevices" : true,
       "EnableSyncTranscoding" : true,
-      "RemoteClientBitrateLimit" : 7
+      "RemoteClientBitrateLimit" : 9
     },
     "EnableAutoLogin" : true,
     "UserItemShareLevel" : "None",
@@ -499,7 +502,7 @@ open class UserServiceAPI {
     "HasConfiguredPassword" : true,
     "ServerName" : "ServerName",
     "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-    "PrimaryImageAspectRatio" : 3.616076749251911,
+    "PrimaryImageAspectRatio" : 2.027123023002322,
     "ConnectLinkType" : "LinkedUser",
     "Id" : "Id",
     "HasPassword" : true
@@ -620,6 +623,7 @@ open class UserServiceAPI {
        - name: embyauth
      - examples: [{contentType=application/json, example=[ {
   "Policy" : {
+    "AutoRemoteQuality" : 2,
     "AllowTagOrRating" : true,
     "EnableContentDeletion" : true,
     "AllowSharingPersonalItems" : true,
@@ -641,14 +645,14 @@ open class UserServiceAPI {
     } ],
     "EnableContentDownloading" : true,
     "EnableSubtitleManagement" : true,
-    "SimultaneousStreamLimit" : 9,
+    "SimultaneousStreamLimit" : 3,
     "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
     "IsAdministrator" : true,
     "EnableSubtitleDownloading" : true,
     "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
     "EnableAllDevices" : true,
     "EnableMediaConversion" : true,
-    "InvalidLoginAttemptCount" : 2,
+    "InvalidLoginAttemptCount" : 7,
     "IsTagBlockingModeInclusive" : true,
     "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
     "EnableLiveTvAccess" : true,
@@ -672,7 +676,7 @@ open class UserServiceAPI {
     "EnableAudioPlaybackTranscoding" : true,
     "IsHiddenFromUnusedDevices" : true,
     "EnableSyncTranscoding" : true,
-    "RemoteClientBitrateLimit" : 7
+    "RemoteClientBitrateLimit" : 9
   },
   "EnableAutoLogin" : true,
   "UserItemShareLevel" : "None",
@@ -706,12 +710,13 @@ open class UserServiceAPI {
   "HasConfiguredPassword" : true,
   "ServerName" : "ServerName",
   "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-  "PrimaryImageAspectRatio" : 3.616076749251911,
+  "PrimaryImageAspectRatio" : 2.027123023002322,
   "ConnectLinkType" : "LinkedUser",
   "Id" : "Id",
   "HasPassword" : true
 }, {
   "Policy" : {
+    "AutoRemoteQuality" : 2,
     "AllowTagOrRating" : true,
     "EnableContentDeletion" : true,
     "AllowSharingPersonalItems" : true,
@@ -733,14 +738,14 @@ open class UserServiceAPI {
     } ],
     "EnableContentDownloading" : true,
     "EnableSubtitleManagement" : true,
-    "SimultaneousStreamLimit" : 9,
+    "SimultaneousStreamLimit" : 3,
     "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
     "IsAdministrator" : true,
     "EnableSubtitleDownloading" : true,
     "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
     "EnableAllDevices" : true,
     "EnableMediaConversion" : true,
-    "InvalidLoginAttemptCount" : 2,
+    "InvalidLoginAttemptCount" : 7,
     "IsTagBlockingModeInclusive" : true,
     "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
     "EnableLiveTvAccess" : true,
@@ -764,7 +769,7 @@ open class UserServiceAPI {
     "EnableAudioPlaybackTranscoding" : true,
     "IsHiddenFromUnusedDevices" : true,
     "EnableSyncTranscoding" : true,
-    "RemoteClientBitrateLimit" : 7
+    "RemoteClientBitrateLimit" : 9
   },
   "EnableAutoLogin" : true,
   "UserItemShareLevel" : "None",
@@ -798,7 +803,7 @@ open class UserServiceAPI {
   "HasConfiguredPassword" : true,
   "ServerName" : "ServerName",
   "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-  "PrimaryImageAspectRatio" : 3.616076749251911,
+  "PrimaryImageAspectRatio" : 2.027123023002322,
   "ConnectLinkType" : "LinkedUser",
   "Id" : "Id",
   "HasPassword" : true
@@ -853,6 +858,7 @@ open class UserServiceAPI {
   "TotalRecordCount" : 0,
   "Items" : [ {
     "Policy" : {
+      "AutoRemoteQuality" : 2,
       "AllowTagOrRating" : true,
       "EnableContentDeletion" : true,
       "AllowSharingPersonalItems" : true,
@@ -874,14 +880,14 @@ open class UserServiceAPI {
       } ],
       "EnableContentDownloading" : true,
       "EnableSubtitleManagement" : true,
-      "SimultaneousStreamLimit" : 9,
+      "SimultaneousStreamLimit" : 3,
       "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
       "IsAdministrator" : true,
       "EnableSubtitleDownloading" : true,
       "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
       "EnableAllDevices" : true,
       "EnableMediaConversion" : true,
-      "InvalidLoginAttemptCount" : 2,
+      "InvalidLoginAttemptCount" : 7,
       "IsTagBlockingModeInclusive" : true,
       "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
       "EnableLiveTvAccess" : true,
@@ -905,7 +911,7 @@ open class UserServiceAPI {
       "EnableAudioPlaybackTranscoding" : true,
       "IsHiddenFromUnusedDevices" : true,
       "EnableSyncTranscoding" : true,
-      "RemoteClientBitrateLimit" : 7
+      "RemoteClientBitrateLimit" : 9
     },
     "EnableAutoLogin" : true,
     "UserItemShareLevel" : "None",
@@ -939,12 +945,13 @@ open class UserServiceAPI {
     "HasConfiguredPassword" : true,
     "ServerName" : "ServerName",
     "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-    "PrimaryImageAspectRatio" : 3.616076749251911,
+    "PrimaryImageAspectRatio" : 2.027123023002322,
     "ConnectLinkType" : "LinkedUser",
     "Id" : "Id",
     "HasPassword" : true
   }, {
     "Policy" : {
+      "AutoRemoteQuality" : 2,
       "AllowTagOrRating" : true,
       "EnableContentDeletion" : true,
       "AllowSharingPersonalItems" : true,
@@ -966,14 +973,14 @@ open class UserServiceAPI {
       } ],
       "EnableContentDownloading" : true,
       "EnableSubtitleManagement" : true,
-      "SimultaneousStreamLimit" : 9,
+      "SimultaneousStreamLimit" : 3,
       "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
       "IsAdministrator" : true,
       "EnableSubtitleDownloading" : true,
       "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
       "EnableAllDevices" : true,
       "EnableMediaConversion" : true,
-      "InvalidLoginAttemptCount" : 2,
+      "InvalidLoginAttemptCount" : 7,
       "IsTagBlockingModeInclusive" : true,
       "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
       "EnableLiveTvAccess" : true,
@@ -997,7 +1004,7 @@ open class UserServiceAPI {
       "EnableAudioPlaybackTranscoding" : true,
       "IsHiddenFromUnusedDevices" : true,
       "EnableSyncTranscoding" : true,
-      "RemoteClientBitrateLimit" : 7
+      "RemoteClientBitrateLimit" : 9
     },
     "EnableAutoLogin" : true,
     "UserItemShareLevel" : "None",
@@ -1031,7 +1038,7 @@ open class UserServiceAPI {
     "HasConfiguredPassword" : true,
     "ServerName" : "ServerName",
     "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-    "PrimaryImageAspectRatio" : 3.616076749251911,
+    "PrimaryImageAspectRatio" : 2.027123023002322,
     "ConnectLinkType" : "LinkedUser",
     "Id" : "Id",
     "HasPassword" : true
@@ -1092,6 +1099,7 @@ open class UserServiceAPI {
      - examples: [{contentType=application/json, example={
   "User" : {
     "Policy" : {
+      "AutoRemoteQuality" : 2,
       "AllowTagOrRating" : true,
       "EnableContentDeletion" : true,
       "AllowSharingPersonalItems" : true,
@@ -1113,14 +1121,14 @@ open class UserServiceAPI {
       } ],
       "EnableContentDownloading" : true,
       "EnableSubtitleManagement" : true,
-      "SimultaneousStreamLimit" : 9,
+      "SimultaneousStreamLimit" : 3,
       "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
       "IsAdministrator" : true,
       "EnableSubtitleDownloading" : true,
       "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
       "EnableAllDevices" : true,
       "EnableMediaConversion" : true,
-      "InvalidLoginAttemptCount" : 2,
+      "InvalidLoginAttemptCount" : 7,
       "IsTagBlockingModeInclusive" : true,
       "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
       "EnableLiveTvAccess" : true,
@@ -1144,7 +1152,7 @@ open class UserServiceAPI {
       "EnableAudioPlaybackTranscoding" : true,
       "IsHiddenFromUnusedDevices" : true,
       "EnableSyncTranscoding" : true,
-      "RemoteClientBitrateLimit" : 7
+      "RemoteClientBitrateLimit" : 9
     },
     "EnableAutoLogin" : true,
     "UserItemShareLevel" : "None",
@@ -1178,7 +1186,7 @@ open class UserServiceAPI {
     "HasConfiguredPassword" : true,
     "ServerName" : "ServerName",
     "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-    "PrimaryImageAspectRatio" : 3.616076749251911,
+    "PrimaryImageAspectRatio" : 2.027123023002322,
     "ConnectLinkType" : "LinkedUser",
     "Id" : "Id",
     "HasPassword" : true
@@ -1251,6 +1259,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -1305,6 +1314,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -1418,6 +1428,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -1472,6 +1483,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -1869,6 +1881,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -1923,6 +1936,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -2129,6 +2143,7 @@ open class UserServiceAPI {
      - examples: [{contentType=application/json, example={
   "User" : {
     "Policy" : {
+      "AutoRemoteQuality" : 2,
       "AllowTagOrRating" : true,
       "EnableContentDeletion" : true,
       "AllowSharingPersonalItems" : true,
@@ -2150,14 +2165,14 @@ open class UserServiceAPI {
       } ],
       "EnableContentDownloading" : true,
       "EnableSubtitleManagement" : true,
-      "SimultaneousStreamLimit" : 9,
+      "SimultaneousStreamLimit" : 3,
       "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
       "IsAdministrator" : true,
       "EnableSubtitleDownloading" : true,
       "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
       "EnableAllDevices" : true,
       "EnableMediaConversion" : true,
-      "InvalidLoginAttemptCount" : 2,
+      "InvalidLoginAttemptCount" : 7,
       "IsTagBlockingModeInclusive" : true,
       "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
       "EnableLiveTvAccess" : true,
@@ -2181,7 +2196,7 @@ open class UserServiceAPI {
       "EnableAudioPlaybackTranscoding" : true,
       "IsHiddenFromUnusedDevices" : true,
       "EnableSyncTranscoding" : true,
-      "RemoteClientBitrateLimit" : 7
+      "RemoteClientBitrateLimit" : 9
     },
     "EnableAutoLogin" : true,
     "UserItemShareLevel" : "None",
@@ -2215,7 +2230,7 @@ open class UserServiceAPI {
     "HasConfiguredPassword" : true,
     "ServerName" : "ServerName",
     "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-    "PrimaryImageAspectRatio" : 3.616076749251911,
+    "PrimaryImageAspectRatio" : 2.027123023002322,
     "ConnectLinkType" : "LinkedUser",
     "Id" : "Id",
     "HasPassword" : true
@@ -2288,6 +2303,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -2342,6 +2358,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -2455,6 +2472,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -2509,6 +2527,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -2906,6 +2925,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -2960,6 +2980,7 @@ open class UserServiceAPI {
           "ItemId" : "ItemId",
           "SupportsExternalStream" : true,
           "Codec" : "Codec",
+          "IsChunkedResponse" : true,
           "SampleRate" : 1,
           "IsAnamorphic" : true,
           "PixelFormat" : "PixelFormat",
@@ -3537,6 +3558,7 @@ open class UserServiceAPI {
        - name: embyauth
      - examples: [{contentType=application/json, example={
   "Policy" : {
+    "AutoRemoteQuality" : 2,
     "AllowTagOrRating" : true,
     "EnableContentDeletion" : true,
     "AllowSharingPersonalItems" : true,
@@ -3558,14 +3580,14 @@ open class UserServiceAPI {
     } ],
     "EnableContentDownloading" : true,
     "EnableSubtitleManagement" : true,
-    "SimultaneousStreamLimit" : 9,
+    "SimultaneousStreamLimit" : 3,
     "IncludeTags" : [ "IncludeTags", "IncludeTags" ],
     "IsAdministrator" : true,
     "EnableSubtitleDownloading" : true,
     "EnabledChannels" : [ "EnabledChannels", "EnabledChannels" ],
     "EnableAllDevices" : true,
     "EnableMediaConversion" : true,
-    "InvalidLoginAttemptCount" : 2,
+    "InvalidLoginAttemptCount" : 7,
     "IsTagBlockingModeInclusive" : true,
     "RestrictedFeatures" : [ "RestrictedFeatures", "RestrictedFeatures" ],
     "EnableLiveTvAccess" : true,
@@ -3589,7 +3611,7 @@ open class UserServiceAPI {
     "EnableAudioPlaybackTranscoding" : true,
     "IsHiddenFromUnusedDevices" : true,
     "EnableSyncTranscoding" : true,
-    "RemoteClientBitrateLimit" : 7
+    "RemoteClientBitrateLimit" : 9
   },
   "EnableAutoLogin" : true,
   "UserItemShareLevel" : "None",
@@ -3623,7 +3645,7 @@ open class UserServiceAPI {
   "HasConfiguredPassword" : true,
   "ServerName" : "ServerName",
   "LastActivityDate" : "2000-01-23T04:56:07.000+00:00",
-  "PrimaryImageAspectRatio" : 3.616076749251911,
+  "PrimaryImageAspectRatio" : 2.027123023002322,
   "ConnectLinkType" : "LinkedUser",
   "Id" : "Id",
   "HasPassword" : true

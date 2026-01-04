@@ -16,7 +16,7 @@ import QueryResultBaseItemDto from '../model/QueryResultBaseItemDto';
 /**
 * ContentService service.
 * @module api/ContentServiceApi
-* @version 4.9.1.90
+* @version 4.9.3.0
 */
 export default class ContentServiceApi {
 

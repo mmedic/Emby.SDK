@@ -8,7 +8,7 @@
       "name": "Emby Developer Forum",
       "url": "https://emby.media/community/index.php?/forum/47-developer-api"
     },
-    "version": "4.9.1.90"
+    "version": "4.9.3.0"
   },
   "host": "emby.media",
   "basePath": "/emby",
@@ -72501,6 +72501,9 @@
           "description": "A value indicating whether this instance is external URL.\r\n\r\nCustom property set by the application.",
           "type": "boolean"
         },
+        "IsChunkedResponse": {
+          "type": "boolean"
+        },
         "IsTextSubtitleStream": {
           "type": "boolean"
         },
@@ -73809,6 +73812,9 @@
           "description": "Internal use only",
           "type": "boolean"
         },
+        "IdString": {
+          "type": "string"
+        },
         "DateCreated": {
           "format": "date-time",
           "description": "The date created.",
@@ -74824,6 +74830,9 @@
         "Container": {
           "type": "string"
         },
+        "AllowChunkedResponse": {
+          "type": "boolean"
+        },
         "Protocol": {
           "type": "string"
         }
@@ -75653,6 +75662,9 @@
         "CollapseSingleItemFolders": {
           "type": "boolean"
         },
+        "ForceCollapseSingleItemFolders": {
+          "type": "boolean"
+        },
         "EnableAdultMetadata": {
           "type": "boolean"
         },
@@ -76298,6 +76310,9 @@
         "GroupProgramsBySeries": {
           "type": "boolean"
         },
+        "GroupByPresentationUniqueKey": {
+          "type": "boolean"
+        },
         "AirDays": {
           "type": "array",
           "items": {
@@ -76719,10 +76734,6 @@
           "description": "The program identifier.",
           "type": "string"
         },
-        "Name": {
-          "description": "Name of the recording.",
-          "type": "string"
-        },
         "ServiceName": {
           "type": "string"
         },
@@ -76810,6 +76821,10 @@
         },
         "TimerType": {
           "$ref": "#/definitions/LiveTv.TimerType"
+        },
+        "Name": {
+          "description": "Name of the recording.",
+          "type": "string"
         }
       },
       "x-internal-ref-name": "MediaBrowser.Controller.LiveTv.SeriesTimerInfo"
@@ -77912,7 +77927,7 @@
           "format": "int32",
           "type": "integer"
         },
-        "MaxLibraryDbConnections": {
+        "MaxLibraryDatabaseConnections": {
           "format": "int32",
           "type": "integer"
         },
@@ -78688,6 +78703,10 @@
         },
         "EnableVideoPlaybackTranscoding": {
           "type": "boolean"
+        },
+        "AutoRemoteQuality": {
+          "format": "int32",
+          "type": "integer"
         },
         "EnablePlaybackRemuxing": {
           "type": "boolean"
