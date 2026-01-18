@@ -44,7 +44,7 @@ jobs:
         run: cd SampleCode/RestApi/Emby.ApiClient/Emby.ApiClient
 
       - name: Restore
-        run: dotnet restore
+        run: dotnet restore $PROJECT_NAME.*proj
 
       - name: Build
         run: dotnet build -c Release --no-restore
