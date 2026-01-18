@@ -44,7 +44,7 @@ jobs:
         run: dotnet restore SampleCode/RestApi/$PROJECT_NAME/$PROJECT_NAME/$PROJECT_NAME.*proj
 
       - name: Build
-        run: dotnet build -c Release --no-restore
+        run: dotnet build -c Release --no-restore SampleCode/RestApi/$PROJECT_NAME/$PROJECT_NAME/
 
       - name: Pack
         run: dotnet pack -v normal -c Release --no-restore --output nuget-packages --include-symbols --include-source SampleCode/RestApi/$PROJECT_NAME/$PROJECT_NAME/$PROJECT_NAME.*proj
