@@ -37,9 +37,6 @@ jobs:
             -p ${{ secrets.NUGET_REPO_PASSWORD }} \
             --store-password-in-clear-text
 
-      - name: Fetch all history for all tags and branches
-        run: git fetch --prune --unshallow
-
       - name: Restore
         run: dotnet restore SampleCode/RestApi/Net.RestSharp/$PROJECT_NAME/$PROJECT_NAME.*proj
 
