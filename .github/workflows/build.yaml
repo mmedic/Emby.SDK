@@ -11,7 +11,7 @@ env:
   # Disable sending usage data to Microsoft
   DOTNET_CLI_TELEMETRY_OPTOUT: true
   # Project name to pack and publish
-  PROJECT_NAME: Emby.ApiClient
+  PROJECT_NAME: EmbyClient.Dotnet
   # GitHub Packages Feed settings
   GITHUB_FEED: https://nuget.pkg.github.com/mmedic/index.json
   GITHUB_USER: mmedic
@@ -41,13 +41,13 @@ jobs:
         run: git fetch --prune --unshallow
 
       - name: Restore
-        run: dotnet restore SampleCode/RestApi/$PROJECT_NAME/$PROJECT_NAME/$PROJECT_NAME.*proj
+        run: dotnet restore SampleCode/RestApi/Net.RestSharp/$PROJECT_NAME/$PROJECT_NAME.*proj
 
       - name: Build
-        run: dotnet build -c Release --no-restore SampleCode/RestApi/$PROJECT_NAME/$PROJECT_NAME/
+        run: dotnet build -c Release --no-restore SampleCode/RestApi/Net.RestSharp/$PROJECT_NAME/
 
       - name: Pack
-        run: dotnet pack -v normal -c Release --no-restore --output nuget-packages --include-symbols --include-source SampleCode/RestApi/$PROJECT_NAME/$PROJECT_NAME/$PROJECT_NAME.*proj
+        run: dotnet pack -v normal -c Release --no-restore --output nuget-packages --include-symbols --include-source SampleCode/RestApi/Net.RestSharp/$PROJECT_NAME/$PROJECT_NAME.*proj
 
       - name: Push to GitHub Feed
         run: |
