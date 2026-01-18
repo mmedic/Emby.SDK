@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <AssemblyName>EmbyClient.Dotnet</AssemblyName>
-        <PackageId>EmbyClient.Dotnet</PackageId>
+        <PackageId>mmedic.EmbyClient.Dotnet</PackageId>
         <OutputType>Library</OutputType>
         <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
